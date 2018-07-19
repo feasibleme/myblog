@@ -1,0 +1,68 @@
+body,p,h1{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei",sans-serif;
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+.container .logo{
+	position: absolute;
+	left: 10%;
+}
+.container .logo h1{
+	color: #6fa1e2;
+	margin-top: 20px;
+}
+.container .logo p{
+	font: 18px/24px "Microsoft YaHei",sans-serif;
+	color: #888;
+}
+.main{
+	background-color: #D9F1F9;
+}
+.mid{
+	margin: 0 auto;
+	width: 90%;
+	height: 820px;
+	background: url(1122.jpg) no-repeat center;
+	position: relative;
+}
+.mid .time1{
+	height: 300px;
+	width: 50%;
+	background-color: rgba(256,256,256,0.5);
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+	left: 50%;
+	margin-left: -25%;
+}
+.mid .time1 p{
+	color: #6fa1e2;
+	font: 24px/28px "Microsoft YaHei",sans-serif;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
+.mid .time1 .time2{
+	position: absolute;
+	left: 30%;
+	top: 45%;
+	color: #888;
+	font: 48px/50px "Microsoft YaHei",sans-serif;
+}
+.footer {
+	height: 25px;
+	background-color: #888;
+	position: relative;
+}
+.footer p{
+	position: absolute;
+	right: 10%;
+	font: 18px/25px "Microsoft YaHei",sans-serif;
+	color: #eee;
+}
